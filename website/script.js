@@ -24,10 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
         showSlide(currentIndex - 1);
     }
 
-    // Autoplay the slider
-    setInterval(nextSlide, 5000); // Change the interval as needed
+    setInterval(nextSlide, 5000); 
 
-    // You can add event listeners for next and previous buttons if needed
+
     const prevBtn = document.querySelector('.prev-slide-btn');
     const nextBtn = document.querySelector('.next-slide-btn');
 
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBtn.addEventListener('click', nextSlide);
 });
 
-// Add this JavaScript for FAQs
+
 document.addEventListener('DOMContentLoaded', function () {
     const faqItems = document.querySelectorAll('.faq');
 

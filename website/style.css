@@ -1,25 +1,25 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Added box-sizing to prevent stretching */
+    box-sizing: border-box; 
 }
 
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Header styles */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Adjusted padding */
+    padding: 20px; 
     color: #fff;
 }
 
 .logo {
-    max-width: 190px; /* Adjusted the size as needed */
+    max-width: 190px; 
 }
 
 .logo img {
@@ -27,7 +27,7 @@ header {
     height: auto;
 }
 
-/* Navigation styles */
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -51,46 +51,46 @@ nav a:hover {
     color: #18eb08ad;
 }
 
-/* Slider styles */
+
 .main-content {
     position: relative;
 }
 
 .slider-container {
     position: relative;
-    max-width: 800px;
+    max-width: 1800px;
     margin: 20px auto;
     overflow: hidden;
     position: relative;
-    height: 500px; /* Reverted the height to its original size */
+    height: 700px; 
 }
 
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 400%; /* Adjust to fill the entire width, considering three slides */
-    height: auto; /* Fill the entire height of the container */
+    width: 400%; 
+    height: auto; 
 }
 
 .slide {
-    flex: 0 0 25%; /* Adjust for the number of slides, in this case, three slides */
+    flex: 0 0 25%; 
     transition: transform 0.5s ease-in-out;
     overflow: hidden;
 }
 
 .slide img {
-    width: 100%; /* Make the image fill the slide */
+    width: 100%; 
     height: auto;
 }
 
-/* Slider navigation button styles */
+
 .prev-slide-btn,
 .next-slide-btn {
     position: absolute;
     top: 50%;
     font-size: 24px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    background: rgba(0, 0, 0, 0.5); 
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -107,7 +107,7 @@ nav a:hover {
     transform: translateY(-50%);
 }
 
-/* Adjustments for slider buttons on smaller screens */
+
 @media only screen and (max-width: 768px) {
     .prev-slide-btn,
     .next-slide-btn {
@@ -115,25 +115,30 @@ nav a:hover {
     }
 
     .logo {
-        max-width: 120px; /* Adjust the size as needed for smaller screens */
+        max-width: 120px; 
     }
 }
 
-/* Footer styles */
+
 footer {
     background-color: #333;
     color: #fff;
+
     text-align: center;
+    align-items: center;
     padding: 10px;
 }
+.president{
+    
+}
 
-/* Social media icon styles */
+
 .social-media img {
     width: 30px;
     margin: 0 10px;
 }
 
-/* Event Roadmap styles */
+
 .event-roadmap {
     padding: 20px;
 }
@@ -144,9 +149,10 @@ footer {
 }
 
 .event img {
-    max-width: 100px;
+    max-width: 300px;
     height: auto;
     margin-right: 20px;
+    padding: 2rem;
 }
 
 .event-details {
@@ -159,12 +165,13 @@ footer {
     margin: 0;
 }
 
-/* Add this CSS for FAQs */
+
 
 .faq {
     border: 1px solid #ddd;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     overflow: hidden;
+    padding: 3px;
 }
 
 .question {
@@ -172,12 +179,13 @@ footer {
     padding: 10px;
     cursor: pointer;
     position: relative;
+    text-align: center;
 }
 
 .question::after {
-    content: "\25BC"; /* Unicode character for down arrow */
+    content: "\25BC"; 
     font-size: 14px;
-    color: #333;
+
     position: absolute;
     top: 50%;
     right: 10px;
@@ -192,14 +200,15 @@ footer {
 .answer {
     padding: 10px;
     display: none;
+    text-align: center;
 }
 
-/* Style for when the question is active (open) */
+
 .active .question {
     background-color: #ddd;
 }
 
-/* Hover effect */
+
 .question:hover {
     background-color: #e0e0e0;
 }
