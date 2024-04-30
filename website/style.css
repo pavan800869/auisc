@@ -1,14 +1,16 @@
-
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
 }
 
+h2 {
+    padding: 2rem;
+}
 
 header {
     display: flex;
@@ -26,7 +28,6 @@ header {
     max-width: 100%;
     height: auto;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -50,7 +51,6 @@ nav a {
 nav a:hover {
     color: #18eb08ad;
 }
-
 
 .main-content {
     position: relative;
@@ -83,7 +83,6 @@ nav a:hover {
     height: auto;
 }
 
-
 .prev-slide-btn,
 .next-slide-btn {
     position: absolute;
@@ -107,7 +106,6 @@ nav a:hover {
     transform: translateY(-50%);
 }
 
-
 @media only screen and (max-width: 768px) {
     .prev-slide-btn,
     .next-slide-btn {
@@ -119,40 +117,43 @@ nav a:hover {
     }
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
-
     text-align: center;
     align-items: center;
     padding: 10px;
 }
-.president{
-    
-}
 
+.president {
+}
 
 .social-media img {
     width: 30px;
     margin: 0 10px;
 }
 
-
 .event-roadmap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .event {
-    display: flex;
+    flex: 0 0 calc(50% - 20px);
     margin-bottom: 20px;
 }
 
 .event img {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
-    margin-right: 20px;
-    padding: 2rem;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Added hovering effect */
+}
+
+.event img:hover {
+    transform: scale(1.1); /* Added hovering effect */
 }
 
 .event-details {
@@ -165,13 +166,11 @@ footer {
     margin: 0;
 }
 
-
-
 .faq {
     border: 1px solid #ddd;
     margin-bottom: 5px;
     overflow: hidden;
-    padding: 3px;
+    padding: 5px; /* Reduced padding */
 }
 
 .question {
@@ -185,7 +184,6 @@ footer {
 .question::after {
     content: "\25BC"; 
     font-size: 14px;
-
     position: absolute;
     top: 50%;
     right: 10px;
@@ -203,11 +201,9 @@ footer {
     text-align: center;
 }
 
-
 .active .question {
     background-color: #ddd;
 }
-
 
 .question:hover {
     background-color: #e0e0e0;
