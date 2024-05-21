@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="./style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <title>AUISC</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./photos/auisc.png"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar-nav ml-auto hover">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" href="./aboutus.html">About Us</a>
+                <li class="nav-item dropdown">
+                  <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Previous Events
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="aunsf2.html">AUNSF2.0</a></li>
+                    <li><a class="dropdown-item" href="https://aunsf.000webhostapp.com/">AUNSF</a></li>
+                    <li><a class="dropdown-item" href="monthlyevents.html">Monthly Events</a></li>
+                  </ul>
+                </li>
+                <a class="nav-link active" href="./gallery.html">Gallery</a>
+                <a class="nav-link active" href="./team.html">Team</a>
+                <a class="nav-link active" href="./contact.html">Contact</a>
+            </div>
+            </div>
+          </div>
+        </nav>
+        <h1 align="center">Event Gallery</h1>
+        <div class="events-container">
+            <!-- Event 1 -->
+            <div class="event" onclick="window.location.href='ex1.html'">
+                <h2 align="center">AUNSF</h2>
+                <img src="photos/DSC_0756.JPG" alt="Event 1 Thumbnail" height="150" width="200">
+            </div>
+        
+            <!-- Event 2 -->
+            <div class="event" onclick="window.location.href='ex2.html'">
+                <h2 align="center">Green Wave</h2>
+                <img src="photos/Copy of GreenWave2.jpeg" alt="Event 2 Thumbnail" height="150" width="200">
+            </div>
+        
+            <!-- Event 3 -->
+            <div class="event" onclick="window.location.href='ex3.html'">
+                <h2 align="center">Clash Of Minds</h2>
+                <img src="photos/IMG_9928.jpg" alt="Event 3 Thumbnail" height="150" width="200">
+            </div>
+        
+            <!-- Event 4 -->
+            <div class="event" onclick="window.location.href='ex4.html'" >
+                <h2 align="center">IASF-2K24</h2>
+                <img src="photos/IMG_1141(1).jpg" alt="Event 4" height="150" width="200">
+            </div>
+        
+            <!-- Add more events as needed -->
+        </div>
+        <section id="footer">
+            <div class="col-12">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="social_media">
+                  <a href="https://www.instagram.com/iucee.au/">
+                  <i class="bi bi-instagram" ></i></a>
+                </div>
+                <div class="social_media">
+                  <a href="https://www.linkedin.com/company/iucee-anurag-university/">
+                  <i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="py-3 my-4">
+              <ul class="nav footer_links justify-content-center border-bottom pb-3 mb-3">
+                <li><a href="index.html" class="nav-link px-2 ">HOME</a></li>
+                <li><a href="aboutus.html" class="nav-link px-2">ABOUT US</a></li>
+                <li class="nav-item dropdown">
+                    <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PREVIOUS EVENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">AUNSF2.0</a></li>
+                      <li><a class="dropdown-item" href="#">AUNSF</a></li>
+                      <li><a class="dropdown-item" href="monthlyevents.html">Monthly Events</a></li>
+                    </ul>
+                  </li>
+                <li><a href="gallery.html" class="nav-link px-2">GALLERY</a></li>
+                <li><a href="team.html" class="nav-link px-2 ">TEAM</a></li>
+                <li><a href="contact.html" class="nav-link px-2 ">CONTACT</a></li>
+              </ul>
+              <p class="text-center" style="color:white ;">Copyright © 2023 All Rights Reserved | IUCEE-Anurag University</p>
+            </div>
+        
+          </section>
+          
+        </body>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        </html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <style>
+           *{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hover a:hover{
+    background-color: #D0E7D2;
+}
+
+
+
+/*previous-event start*/
+.event{
+    text-align: center;
+    padding: 10px;
+}
+.aunsf,.gw{
+    text-align: center;
+}
+.aunsf h2,.event h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#285430;
+}
+.aunsf h3{
+    font-size: 1.5rem;
+    color:#618264 ;
+    margin-bottom: 20px;
+}
+.aunsf img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+.aunsf p,.event p{
+    margin-top: 20px;
+   font-size: 1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.daywise_container h2{
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.daywise_container p{
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width:600px){
+    .carousel{
+        width: 600px;
+    }
+    .daywise_container{
+        width:600px ;
+    }
+}
+#footer .social_media{
+    height: 40px;
+    width: 40px;
+    color:black;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+#footer .social_media i{
+    font-size:25px;
+}
+#footer .social_media a{
+    color:black;
+}
+#footer{
+    background-color:#69b7ca;
+
+}
+
+.footer_links li{
+    font-weight: 600;
+}
+.footer_links > li>a{
+    color:black ;
+}
+        </style>
+        <title>AUISC-EWB</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./photos/auisc.png"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ml-auto hover">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="./aboutus.html">About Us</a>
+              <li class="nav-item dropdown">
+                <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Previous Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./aunsf2.html">AUNSF2.0</a></li>
+                  <li><a class="dropdown-item" href="https://aunsf.000webhostapp.com/">AUNSF</a></li>
+                  <li><a class="dropdown-item" href="./monthlyevents.html">Monthly Events</a></li>
+                </ul>
+              </li>
+              <a class="nav-link active" href="./gallery.html">Gallery</a>
+              <a class="nav-link active" href="./team.html">Team</a>
+              <a class="nav-link active" href="./contact.html">Contact</a>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <div class="event">
+        <div class="aunsf">
+        <h2>AUNSF</h2>
+        <h3>(Anurag University National Student Forum)</h3>
+        <img src="photos/aunsf.JPG" >
+        <p> The Anurag University National Student Forum (AUNSF) is an event that brings together bright young minds from all over the country to discuss and find solutions to some of the world’s most critical issues.<br>
+            The theme for AUNSF 2023 is “Innovate to Transform”. The theme is aimed at encouraging students to think outside the box and come up with innovative solutions to some of the world’s most pressing global challenges. 
+            We aim to ignite a thought of sustainable sensitivity about the community problems and solutions in them.
+        </p>
+        </div>
+        <div class="box1">
+        <div class="event">
+        <h2>DAY-1</h2>
+        <center><div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="photos/day1.1.JPG" class="d-block w-100" alt="day1.1">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/day1.2.JPG" class="d-block w-100" alt="day1.2">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/day1.3.JPG" class="d-block w-100" alt="day1.3">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/day1.4.JPG" class="d-block w-100" alt="day1.4">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/day1.5.JPG" class="d-block w-100" alt="day1.5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <p> From an inspiring inaugural ceremony to engaging brainstorming sessions, Day 1 was filled with excitement and energy. 
+           
+        </p>
+        </div>
+        <div class="event">
+          <h2>DAY-2</h2>
+          <center><div id="carousel-1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                 
+                </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="photos/day2.1.JPG" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="photos/day2.2.JPG" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="photos/day2.3.JPG" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="photos/day2.4.JPG" alt="Third slide">
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></center>
+          <p>Day 2 was packed with insightful panel discussions, productive working sessions, and a captivating cultural extravaganza.<br>
+            Together, we're making a difference!
+          </p>
+        </div>
+        <div class="event">
+          <h2>DAY-3</h2>
+          <center><div id="carousel-2" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="photos/day3.1.JPG" class="d-block w-100" alt="day3.1">
+              </div>
+              <div class="carousel-item">
+                <img src="photos/day3.2.JPG" class="d-block w-100" alt="day3.2">
+              </div>
+              <div class="carousel-item">
+                <img src="photos/day3.3.JPG" class="d-block w-100" alt="day3.3">
+              </div>
+              <div class="carousel-item">
+                <img src="photos/day3.4.JPG" class="d-block w-100" alt="day3.4">
+              </div>
+              <div class="carousel-item">
+                <img src="photos/day3.5.JPG" class="d-block w-100" alt="day3.5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></center>
+          <p>On the final day, we witnessed remarkable presentations, constructive feedback sessions, and an unforgettable closing ceremony.
+          </p>
+        </div>
+        </div>
+      </div>
+      <hr style="color:#83B582 ;">
+      <div class="event">
+        <h2>GREEN WAVE</h2>
+        <center><div id="carousel-4" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel-4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="photos/gw1.JPG" class="d-block w-100" alt="gw1">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/gw2.JPG" class="d-block w-100" alt="gw2">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/gw3.JPG" class="d-block w-100" alt="gw3">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/gw4.JPG" class="d-block w-100" alt="gw4">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/gw5.JPG" class="d-block w-100" alt="gw5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <p>
+          This three-day event began on August 17, 2023, that had been at the forefront of promoting environmental awareness and sustainable living through a dynamic Rally with a participant count of approximately 505 individuals.
+          The President of the AUISC student chapter stated,
+          "This rally serves as a testament to our unwavering dedication to fostering a culture of sustainability within our campus community,"
+        </p>
+      </div>
+      <div class="event">
+        <h2>CLASH OF MINDS</h2>
+        <center><div id="carousel-3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel-3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="photos/IMG_9928.jpg" class="d-block w-100" alt="gw1">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/IMG_5786.jpg" class="d-block w-100" alt="gw2">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/IMG_5880.jpg" class="d-block w-100" alt="gw3">
+            </div>
+            <div class="carousel-item">
+              <img src="photos/IMG_5962.jpg" class="d-block w-100" alt="gw4">
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <p>
+          This three-day event began on August 17, 2023, that had been at the forefront of promoting environmental awareness and sustainable living through a dynamic Rally with a participant count of approximately 505 individuals.
+          The President of the AUISC student chapter stated,
+          "This rally serves as a testament to our unwavering dedication to fostering a culture of sustainability within our campus community,"
+        </p>
+      </div>
+      <section id="footer">
+        <div class="col-12">
+          <div class="d-flex flex-row justify-content-center">
+            <div class="social_media">
+              <a href="https://www.instagram.com/iucee.au/">
+              <i class="bi bi-instagram" ></i></a>
+            </div>
+            <div class="social_media">
+              <a href="https://www.linkedin.com/company/iucee-anurag-university/">
+              <i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="py-3 my-4">
+          <ul class="nav footer_links justify-content-center border-bottom pb-3 mb-3">
+            <li><a href="index.html" class="nav-link px-2 ">HOME</a></li>
+            <li><a href="aboutus.html" class="nav-link px-2">ABOUT US</a></li>
+            <li class="nav-item dropdown">
+                <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PREVIOUS EVENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aunsf2.html">AUNSF2.0</a></li>
+                  <li><a class="dropdown-item" href="https://aunsf.000webhostapp.com/">AUNSF</a></li>
+                  <li><a class="dropdown-item" href="monthlyevents.html">Monthly Events</a></li>
+                </ul>
+              </li>
+            <li><a href="gallery.html" class="nav-link px-2">GALLERY</a></li>
+            <li><a href="team.html" class="nav-link px-2 ">TEAM</a></li>
+            <li><a href="contact.html" class="nav-link px-2 ">CONTACT</a></li>
+          </ul>
+          <p class="text-center" style="color:white ;">Copyright © 2023 All Rights Reserved | IUCEE-Anurag University</p>
+        </div>
+    
+      </section>
+      </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script>
+      /* 1 carousel */
+      $('#carousel-1').carousel({
+            interval: 4000,
+            wrap: true,
+            keyboard: true
+       });
+       
+       
+       /* 2 carousel */
+       $('#carousel-2').carousel({
+            interval: 6000,
+            wrap: true,
+            keyboard: true
+       });
+       
+       
+       /* 3 carousel */
+       $('#carousel-3').carousel({
+           interval: 8000,
+           wrap: true,
+           keyboard: true
+       });
+      
+       /* 4 carousel example with jumbotron */
+       $('#carousel-4').carousel({
+           interval: 10000,
+           wrap: true,
+           keyboard: true
+       });
+      
+       
+      
+       </script>
+    </html>
