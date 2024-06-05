@@ -321,7 +321,8 @@ marquee {
 #aunsf2 .img1{
     background-size: cover;
     width:100%;
-    height: 900px;
+    height: 800px;
+    position: relative;
 }
 
 .abt{
