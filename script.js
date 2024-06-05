@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showSlide(currentIndex - 1);
     }
 
-    setInterval(nextSlide, 5000); 
+    setInterval(nextSlide, 4000); 
 
 
     const prevBtn = document.querySelector('.prev-slide-btn');

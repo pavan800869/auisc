@@ -1,0 +1,180 @@
+/* navbar start */
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .hover a:hover{
+      background-color:#69b7ca;
+  }
+/* navbar end */
+
+
+.wrapper {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.our_team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.our_team .team_member {
+    width: 250px;
+    margin: 5px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.our_team .team_member .member_img {
+    background: #69b7ca;
+    width: 100%;
+    padding-top: 100%; /* Makes the div a square */
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our_team .team_member .member_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our_team .team_member h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px 0 0px;
+    color: black;
+    text-align: center;
+}
+
+.our_team .team_member p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.our_team .team_member .member_img .social_media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.65);
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item {
+    margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab {
+    color: #3ed84b;
+    font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media {
+    transform: scale(1);
+}
+
+.heading {
+    background: url(../images/heading-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading h3 {
+    font-size: 3.5rem;
+    color: #302851;
+}
+
+.heading p {
+    font-size: 1.6rem;
+    color: #666;
+    padding-top: 0.5rem;
+}
+
+.heading p a {
+    padding-right: 0.5rem;
+    color: #fa1d86;
+}
+
+.heading p a:hover {
+    color: #e6e7e9;
+}
+
+/*Footer code*/
+#footer .social_media{
+    height: 40px;
+    width: 40px;
+    color:black;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+#footer .social_media i{
+    font-size:25px;
+}
+#footer .social_media a{
+    color:black;
+}
+#footer{
+    background-color:#69b7ca;
+
+}
+
+.footer_links li{
+    font-weight: 600;
+}
+.footer_links > li>a{
+    color:black ;
+}
+
+.center-aligned-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .center-aligned-button a {
+    text-decoration: none;
+  }
+  
+  .center-aligned-button button {
+    background-color: rgb(14, 153, 26);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .center-aligned-button button:hover {
+    background-color: #075e14;
+  }
+  
