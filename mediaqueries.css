@@ -1,0 +1,149 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    /* Styles for smartphones */
+    .navbar-brand img {
+      max-width: 150px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .marquee {
+      font-size: 25px;
+    }
+  
+    .slider-container {
+      max-width: 100%;
+      height: 250px;
+    }
+  
+    .event-roadmap .event {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .event-roadmap .event img {
+      max-width: 100%;
+    }
+  
+    .faq-container {
+      padding: 10px;
+    }
+  
+    .faq-box h4 {
+      font-size: 16px;
+    }
+  
+    .wrapper h1 {
+      font-size: 24px;
+    }
+  
+    .our_team {
+      justify-content: center;
+    }
+  
+    .team_member {
+      max-width: 50%;
+    }
+  
+    .member_img img {
+      max-width: 100%;
+    }
+  
+    .right-aligned-button,
+    .center-aligned-button {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .daywise img {
+      max-width: 100%;
+      height: auto;
+    }
+    #aunsf2 .img1{
+        padding-left: 50px;
+    }
+  
+    #contact .box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #contact .icons {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Tablets (portrait and landscape) */
+  @media only screen and (min-width: 768px) and (max-width: 1399px) {
+    /* Styles for tablets */
+    .navbar-brand img {
+      max-width: 200px;
+    }
+  
+    .marquee {
+      font-size: 25px;
+    }
+    .slider-container {
+        max-width: 100%;
+        height: 580px;
+      }
+    #aunsf2 .img1{
+        padding-left: 69px;
+    }
+  
+    .event-roadmap .event img {
+      max-width: 200px;
+    }
+  
+    .faq-container {
+      padding: 20px;
+    }
+  
+    .team_member {
+      max-width: 33.33%;
+    }
+  
+    .daywise img {
+      max-width: 300px;
+      height: auto;
+    }
+  }
+  
+  /* Laptops and desktops */
+  @media only screen and (min-width: 1400px) {
+    /* Styles for laptops and desktops */
+    .navbar-brand img {
+      max-width: 250px;
+    }
+  
+    .marquee {
+      font-size: 25px;
+    }
+    .slider-container {
+        position: relative;
+        max-width: 1800px;
+        margin: 20px auto;
+        overflow: hidden;
+        height: calc(100vh - 100px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .event-roadmap .event img {
+      max-width: 300px;
+    }
+  
+    .faq-container {
+      padding: 30px;
+    }
+  
+    .team_member {
+      max-width: 25%;
+    }
+  
+    .daywise img {
+      max-width: 380px;
+      height: 400px;
+    }
+  }
