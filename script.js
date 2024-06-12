@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // countdown for aunsf2.0
-var countDownDate = new Date("June 13, 2024 00:00:00").getTime();
+var countDownDate = new Date("June 18, 2024 00:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
