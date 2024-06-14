@@ -455,6 +455,22 @@ marquee {
     padding-left: 140px;
 
 }
+.sponsers {
+    text-align: center;
+   }
+   
+.sponsers img {
+    display: inline-block;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
+   
+.Headings {
+    margin-bottom: 30px;
+}
 .abt{
     display: flex;
 }
