@@ -461,11 +461,17 @@ marquee {
    
 .sponsers img {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     max-width: 350px;
     margin: 0 auto;
     height: auto;
 }
+.sponsers img:not(.main_sponsers img) {
+    display: inline-block;
+    margin: 10px; /* Adding some spacing between images */
+    max-width: 150px; /* Limiting the maximum width of the images */
+    height: auto; /* Maintaining aspect ratio */
+  }
    
 .Headings {
     margin-bottom: 30px;
